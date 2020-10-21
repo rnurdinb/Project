@@ -1,0 +1,59 @@
+= Sentinel  
+:keywords: BPA, Active, STI
+
+== Overview
+
+Sentinel adalah _dashboard_ khusus untuk Tim OPS (Operations) dalam menjalankan tugas kesehariannya. Diharapkan pada tahun 2019 Sentinel sudah dapat menggunakan _realtime data_ yang berasal dari data Stream.
+
+Nama lain dari _dashboard_ ini adalah _kraken admin phase 2_.
+Melalui Sentinel kita dapat melihat data transaksi, melakukan pengecekan status produk yang tersedia, menambahkan produk, _partner_, dan _operator_.
+
+Sentinel Web Application (FE)
+
+Aplikasi Web Sentinel adalah UI Interface berupa Web Dashboard yang terhubung dengan beberapa sistem,di antaranya adalah: Kraken, Pollux, Sentinel Backend.
+
+Sentinel System (BE)
+
+Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya yang belum/tidak dapat disediakan oleh sistem lainnya (Kraken, Pollux, dan lainnya).
+
+== Team Involved
+
+|===
+| *Role* | *Name* | *Email*
+| Product Owner | Jeremy Minardi | 
+| Development Manager | Wishnu |
+| Lead Software Engineer | Somy Andriyanto | 
+| Lead Quality Engineer | Marco Ichwan Bosch | | Lead System Analyst | Gabriel Stevano |
+
+
+|===
+
+== Technical Information
+
+
+<<docs/url-sentinel.adoc#, System URL Sentinel>>
+
+<<docs/architecture-sentinel.adoc#, Architecture Sentinel>>
+
+<<docs/technology-sentinel.adoc#, Technology Sentinel>>
+
+<<docs/environment-sentinel.adoc#, Environment Sentinel>>
+
+<<docs/release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
+
+
+== Onboarding Information
+
+<<docs/dev-onboarding-sentinel.adoc#, Developer Onboarding Sentinel>>
+
+<<docs/development-sentinel.adoc#, Development Sentinel>>
+
+<<docs/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
+
+== Documentation
+
+<<docs/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
+
+<<docs/product-information-sentinel.adoc#, Product Information Document Sentinel>>
+
+https://github.com/sepulsa/kraken-admin/releases[Release Notes Sentinel]

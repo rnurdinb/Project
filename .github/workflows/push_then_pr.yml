@@ -1,0 +1,43 @@
+# This CI will run after publish a new release
+
+name: Push to Other Repo and Make a PR
+
+on: 
+  release:
+    types: [published]
+
+# on: 
+#   push:
+#       paths : 
+#       - 'docs/*'
+#       - 'readme.adoc'
+#       branches :
+#       - master
+# triger with spesific path
+  
+jobs:
+  processing_docs:
+#     if: "!github.event.release.prerelease"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Push then create PR
+        uses: sepulsa/push_then_pr@master
+        env:
+            API_TOKEN_GITHUB: ${{ secrets.API_INTEGRATED_REPO }}
+
+            DEST_GITHUB_USERNAME: 'rnurdinb'
+            DEST_REPO_NAME: 'TW'
+            USER_EMAIL: 'test@example.com'
+            PUSH_TO_BRANCH: 'docs-sentinel'
+            PR_TO_BRANCH: 'master'
+            # You can add multiple source file or folder separate by space
+            SRC_DIR: 'readme.adoc docs' 
+            # You can create nested folder
+            DEST_DIR: 'bpa/sentinel'
+            # You can rename with format source(comma)target
+            # Multiple line if you want to move multiple file / folder
+            RENAME: >-
+                    readme.adoc,docs.adoc
+            # Add your custom Pull Request message
+            PR_MESSAGE: 'New release from Sentinel' 
