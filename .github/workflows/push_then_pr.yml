@@ -30,7 +30,7 @@ jobs:
             DEST_REPO_NAME: 'TW'
             USER_EMAIL: 'test@example.com'
             PUSH_TO_BRANCH: 'docs-sentinel'
-            PR_TO_BRANCH: 'master'
+            PR_TO_BRANCH: 'main'
             # You can add multiple source file or folder separate by space
             SRC_DIR: 'readme.adoc docs' 
             # You can create nested folder
