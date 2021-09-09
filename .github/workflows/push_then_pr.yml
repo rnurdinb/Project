@@ -26,8 +26,8 @@ jobs:
         env:
             API_TOKEN_GITHUB: ${{ secrets.API_INTEGRATED_REPO }}
 
-            DEST_GITHUB_USERNAME: 'sepulsa'
-            DEST_REPO_NAME: 'Ibis-Tummy'
+            DEST_GITHUB_USERNAME: 'rnudinb'
+            DEST_REPO_NAME: 'Project'
             USER_EMAIL: 'test@example.com'
             PUSH_TO_BRANCH: 'docs-xpander'
             PR_TO_BRANCH: 'master'
