@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Push then create PR
-        uses: rnurdinb/push-repo@master
+        uses: rnurdinb/push-repo@main
         env:
             API_TOKEN_GITHUB: ${{ secrets.API_INTEGRATED_REPO }}
 
