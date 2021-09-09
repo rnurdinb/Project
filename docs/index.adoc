@@ -1,14 +1,14 @@
-= Xpander dari system   
-:keywords: telco,sti 
-
+= Xpander dari kb  
+:keywords: telco,sti  
+ 
 == Overview
 
-Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.Xpander memungkinkan tim Operasional untuk melakukan pendataan status order dari Partner ataupun Biller. Untuk saat ini, _platform_ Xpander hanya bisa digunakan untuk produk isi pulsa, paket data dan game _voucher_.
+Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.Xpander memungkinkan tim Operasional untuk melakukan pendataan status order dari Partner ataupun Biller. Untuk saat ini, _platform_ Xpander hanya bisa digunakan untuk produk isi pulsa, paket data dan game _voucher_.    
       
 == Team Involved 
 
 |===
-| Name | Role | Email
+| Name | Role | Email. 
 
 | Pipit Puspitasari
 | Product Owner
@@ -44,6 +44,6 @@ Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket da
 <<dev-onboard-xpander.adoc#, Developer Onboarding Xpander>>
 
 
-== Documentation 
+== Documentation
 
 <<katalog-proses-xpander.adoc#, Process and Log Catalog Xpander>>
