@@ -1,4 +1,4 @@
-= Xpander dari system  
+= Xpander dari system   
 :keywords: telco,sti 
 
 == Overview
@@ -44,6 +44,6 @@ Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket da
 <<dev-onboard-xpander.adoc#, Developer Onboarding Xpander>>
 
 
-== Documentation
+== Documentation 
 
 <<katalog-proses-xpander.adoc#, Process and Log Catalog Xpander>>
