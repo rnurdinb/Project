@@ -1,0 +1,39 @@
+= Xpander
+
+Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.
+
+== Prerequisites and Instalation
+
+Untuk memulai development pada sistem dashboard BimaPHR ini, seorang Software Engineer harus menguasai _library_ dan _framework_ sebagai berikut:
+
+- Library
+- Framework
+
+Sedangkan, _requirement_ pada PC yang harus disiapkan adalah sebagai berikut:
+
+- Requirement 1
+- Requirement 2
+- Etc
+
+Untuk lebih jelasnya terkait development, Software Engineer dapat mengakses _section_ <<docs/dev-onboard-xpander.adoc#,Developer Onboarding>> pada dokumentasi sistem.
+
+== Documentation 
+
+Dokumentasi ini akan membantu para Software Engineer mengenal sistem Xpander , API dan juga user guide dalam menjalankan sistemnya, berikut adalah dokumentasi dari sistem Xpander.
+
+|===
+| *Document Title* | *About The Document*
+
+| <<docs/index.adoc#,System Documentation>>
+| Dokumen ini mencakup overview terkait sistem, termasuk _architecture_ dan _environment_ sistem, cara _development_, cara _deploy_ sistem, dan sebagainya
+
+| API Document
+| Dokumen teknis ini mencakup keterangan terkait API sistem  dan cara integrasinya
+
+| User Guide
+| Dokumen ini disusun sebagai panduan untuk end user dalam penggunaan sistem
+|===
+
+== Author
+
+Name - Role - Team
